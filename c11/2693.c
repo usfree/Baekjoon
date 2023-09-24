@@ -15,9 +15,10 @@ int main(void)
 {
 	int T;
 	int Tarr[1000][10];
+	int i = 0;
 	
 	scanf("%d", &T);
-	int i = 0;
+
 	while (T--)
 	{
 		for (int j = 0; j < 10; j++)
