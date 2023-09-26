@@ -13,7 +13,6 @@ int main (void)
 
         scanf("%s", op);
 
-
         if (op[0] == 'a' && op[1] == 'd') //add
         {
             scanf("%d", &num);
@@ -28,7 +27,6 @@ int main (void)
                 arr[num]--;
             }
         }
-
         else if (op[0] == 'c' && op[1] == 'h') //check
         {
             scanf("%d", &num);
@@ -37,7 +35,6 @@ int main (void)
             else
                 printf("0\n");
         }
-
         else if (op[0] == 't' && op[1] == 'o') //toggle
         {
             scanf("%d", &num);
@@ -46,13 +43,11 @@ int main (void)
             else
                 arr[num]++;
         }
-
         else if (op[0] == 'a' && op[1] == 'l') //all
         {
             for (int j = 1; j < 21; j++)
                 arr[j] = 1;
         }
-
         else if (op[0] == 'e' && op[1] == 'm') //empty
         {
             for (int j = 0; j < 21; j++)
