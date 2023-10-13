@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-void two(int N)
+void two(long long N)
 {
 	if (N > 1)
 		two(N / 2);
@@ -10,7 +10,7 @@ void two(int N)
 
 int main(void)
 {
-	int N;
+	long long N;
 	cin >> N;
 
 	two(N);
